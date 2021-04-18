@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Thin.woff");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-ExtraLight.woff");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Light.woff");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Regular.woff");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Medium.woff");
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-SemiBold.woff");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Bold.woff");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-ExtraBold.woff");
+    font-weight: 800;
+  }
+  @font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Black.woff");
+    font-weight: 900;
+  }

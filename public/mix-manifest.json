@@ -1,4 +1,12 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/fonts/Akrobat-Black.woff": "/fonts/Akrobat-Black.woff",
+    "/fonts/Akrobat-Bold.woff": "/fonts/Akrobat-Bold.woff",
+    "/fonts/Akrobat-ExtraBold.woff": "/fonts/Akrobat-ExtraBold.woff",
+    "/fonts/Akrobat-ExtraLight.woff": "/fonts/Akrobat-ExtraLight.woff",
+    "/fonts/Akrobat-Light.woff": "/fonts/Akrobat-Light.woff",
+    "/fonts/Akrobat-Regular.woff": "/fonts/Akrobat-Regular.woff",
+    "/fonts/Akrobat-SemiBold.woff": "/fonts/Akrobat-SemiBold.woff",
+    "/fonts/Akrobat-Thin.woff": "/fonts/Akrobat-Thin.woff"
 }

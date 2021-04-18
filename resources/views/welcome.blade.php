@@ -16,236 +16,398 @@
             }
         </style>
     </head>
-    <body class="antialiased bg-orange-light relative font-akrobat">
+    <body class="antialiased bg-orange-light relative font-akrobat bg-light">
         
 
-        <div class="flex justify-center pt-10 ">
-            <img class="w-64" src="images/logo.png" alt="">
-        </div>
-        <div class="flex justify-between flex-row pt-6 w-8/12 m-auto py-3">
-            <div class="flex w-12 overflow-hidden border-red-500 border-solid border-4 rounded-2xl">
-                <img class="w-full" src="images/facebook.png" alt="">
-            </div>
-            <div class="flex w-12 overflow-hidden border-red-500 border-solid border-4 rounded-2xl">
-                <img class="w-full" src="images/instagram.png" alt="">
-            </div>
-            <div class="flex w-12 overflow-hidden border-red-500 border-solid border-4 rounded-2xl">
-                <img class="w-full" src="images/whatsapp.png" alt="">
-            </div>
-            <div class="flex w-12 overflow-hidden border-red-500 border-solid border-4 rounded-2xl">
-                <img class="w-full" src="images/google-maps.png" alt="">
-            </div>
-        </div>
-        <div class="flex flex-row items-center w-full justify-center mt-12">
-            <div class="flex w-16 mr-2 -mt-2">
-                <img class="w-full" src="images/category.png" alt="">
-            </div>
-            <div class="flex w-auto">
-                <h1 class="text-6xl font-black font-akrobat uppercase">Category</h1>
-            </div>
-        </div>
-        <div class="flex flex-row items-center px-7 mt-2 w-full">
-            <div class="w-14 mr-3">
-                <img src="images/menu.png" alt="">
-            </div>
-            <div class="w-full">
-                <div class="flex flex-row w-full items-stretch -mb-2">
-                    <div>
-                        <h2 class="font-bold text-2xl">Title</h2>
-                    </div>
-                    <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
-                    <div>
-                        <span  class="font-bold text-2xl">100DH</span>
-                    </div>
+        <div class="flex w-full justify-center">
+            <div class="flex flex-col max-w-lg w-full justify-center">
+                <div class="flex justify-center pt-10 ">
+                    <img class="w-64" src="images/logo.png" alt="">
                 </div>
-                <div>
-                    <span class="text-">
-                        Lorem ipsum dolor sit amet.
-                    </span>
+                <div class="flex justify-between flex-row pt-6 w-8/12 m-auto py-3">
+                    <div class="flex w-12 overflow-hidden bg-secondary border-secondary border-solid border-4 rounded-2xl">
+                        <img class="w-full" src="images/facebook.png" alt="">
+                    </div>
+                    <div class="flex w-12 overflow-hidden bg-secondary border-secondary border-solid border-4 rounded-2xl">
+                        <img class="w-full" src="images/instagram.png" alt="">
+                    </div>
+                    <div class="flex w-12 overflow-hidden bg-secondary border-secondary border-solid border-4 rounded-2xl">
+                        <img class="w-full" src="images/whatsapp.png" alt="">
+                    </div>
+                    <div class="flex w-12 overflow-hidden bg-secondary border-secondary border-solid border-4 rounded-2xl">
+                        <img class="w-full" src="images/google.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center px-7 mt-2 w-full">
-            <div class="w-14 mr-3">
-                <img src="images/menu.png" alt="">
-            </div>
-            <div class="w-full">
-                <div class="flex flex-row w-full items-stretch -mb-2">
-                    <div>
-                        <h2 class="font-bold text-2xl">Title</h2>
+        <div class="w-full flex justify-center">
+            <div class="w-full flex flex-wrap max-w-5xl">
+                <div class="flex w-full flex-col lg:w-1/2">
+                    <div class="flex flex-row items-center w-full justify-center mt-12">
+                        <div class="flex w-16 mr-2 -mt-2">
+                            <img class="w-full" src="images/category.png" alt="">
+                        </div>
+                        <div class="flex w-auto">
+                            <h1 class="text-6xl font-black font-akrobat uppercase text-primary">Category</h1>
+                        </div>
                     </div>
-                    <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
-                    <div>
-                        <span  class="font-bold text-2xl">100DH</span>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <span class="text-">
-                        Lorem ipsum dolor sit amet.
-                    </span>
+                <div class="flex w-full flex-col lg:w-1/2">
+                    <div class="flex flex-row items-center w-full justify-center mt-12">
+                        <div class="flex w-16 mr-2 -mt-2">
+                            <img class="w-full" src="images/category.png" alt="">
+                        </div>
+                        <div class="flex w-auto">
+                            <h1 class="text-6xl font-black font-akrobat uppercase text-primary">Category</h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="flex w-full flex-col lg:w-1/2">
+                    <div class="flex flex-row items-center w-full justify-center mt-12">
+                        <div class="flex w-16 mr-2 -mt-2">
+                            <img class="w-full" src="images/category.png" alt="">
+                        </div>
+                        <div class="flex w-auto">
+                            <h1 class="text-6xl font-black font-akrobat uppercase text-primary">Category</h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-full flex-col lg:w-1/2">
+                    <div class="flex flex-row items-center w-full justify-center mt-12">
+                        <div class="flex w-16 mr-2 -mt-2">
+                            <img class="w-full" src="images/category.png" alt="">
+                        </div>
+                        <div class="flex w-auto">
+                            <h1 class="text-6xl font-black font-akrobat uppercase text-primary">Category</h1>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-row items-center px-7 mt-2 w-full">
+                        <div class="w-14 mr-3">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                        <div class="w-full">
+                            <div class="flex flex-row w-full items-stretch -mb-2">
+                                <div>
+                                    <h2 class="font-bold text-2xl">Title</h2>
+                                </div>
+                                <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
+                                <div>
+                                    <span  class="font-bold text-2xl">100DH</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-sm text-black text-opacity-70">
+                                    Lorem ipsum dolor sit amet.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
-        <div class="flex flex-row items-center px-7 mt-2 w-full">
-            <div class="w-14 mr-3">
-                <img src="images/menu.png" alt="">
-            </div>
-            <div class="w-full">
-                <div class="flex flex-row w-full items-stretch -mb-2">
-                    <div>
-                        <h2 class="font-bold text-2xl">Title</h2>
-                    </div>
-                    <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
-                    <div>
-                        <span  class="font-bold text-2xl">100DH</span>
-                    </div>
+
+        <div class="fixed bottom-10 px-4 w-full flex justify-center">
+            <div class="bg-secondary w-full max-w-md py-1 px-2 rounded-full flex flex-row items-center">
+                <div class="flex w-12 mr-4">
+                    <img src="images/phone.png" class="w-full" alt="">
                 </div>
-                <div>
-                    <span class="text-">
-                        Lorem ipsum dolor sit amet.
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-row items-center w-full justify-center mt-12">
-            <div class="flex w-16 mr-2 -mt-2">
-                <img class="w-full" src="images/category.png" alt="">
-            </div>
-            <div class="flex w-auto">
-                <h1 class="text-6xl font-black font-akrobat uppercase">Category</h1>
-            </div>
-        </div>
-        <div class="flex flex-row items-center px-7 mt-2 w-full">
-            <div class="w-14 mr-3">
-                <img src="images/menu.png" alt="">
-            </div>
-            <div class="w-full">
-                <div class="flex flex-row w-full items-stretch -mb-2">
-                    <div>
-                        <h2 class="font-bold text-2xl">Title</h2>
-                    </div>
-                    <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
-                    <div>
-                        <span  class="font-bold text-2xl">100DH</span>
-                    </div>
-                </div>
-                <div>
-                    <span class="text-">
-                        Lorem ipsum dolor sit amet.
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-row items-center px-7 mt-2 w-full">
-            <div class="w-14 mr-3">
-                <img src="images/menu.png" alt="">
-            </div>
-            <div class="w-full">
-                <div class="flex flex-row w-full items-stretch -mb-2">
-                    <div>
-                        <h2 class="font-bold text-2xl">Title</h2>
-                    </div>
-                    <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
-                    <div>
-                        <span  class="font-bold text-2xl">100DH</span>
-                    </div>
-                </div>
-                <div>
-                    <span class="text-">
-                        Lorem ipsum dolor sit amet.
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-row items-center px-7 mt-2 w-full">
-            <div class="w-14 mr-3">
-                <img src="images/menu.png" alt="">
-            </div>
-            <div class="w-full">
-                <div class="flex flex-row w-full items-stretch -mb-2">
-                    <div>
-                        <h2 class="font-bold text-2xl">Title</h2>
-                    </div>
-                    <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
-                    <div>
-                        <span  class="font-bold text-2xl">100DH</span>
-                    </div>
-                </div>
-                <div>
-                    <span class="text-">
-                        Lorem ipsum dolor sit amet.
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-row items-center w-full justify-center mt-12">
-            <div class="flex w-16 mr-2 -mt-2">
-                <img class="w-full" src="images/category.png" alt="">
-            </div>
-            <div class="flex w-auto">
-                <h1 class="text-6xl font-black font-akrobat uppercase">Category</h1>
-            </div>
-        </div>
-        <div class="flex flex-row items-center px-7 mt-2 w-full">
-            <div class="w-14 mr-3">
-                <img src="images/menu.png" alt="">
-            </div>
-            <div class="w-full">
-                <div class="flex flex-row w-full items-stretch -mb-2">
-                    <div>
-                        <h2 class="font-bold text-2xl">Title</h2>
-                    </div>
-                    <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
-                    <div>
-                        <span  class="font-bold text-2xl">100DH</span>
-                    </div>
-                </div>
-                <div>
-                    <span class="text-">
-                        Lorem ipsum dolor sit amet.
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-row items-center px-7 mt-2 w-full">
-            <div class="w-14 mr-3">
-                <img src="images/menu.png" alt="">
-            </div>
-            <div class="w-full">
-                <div class="flex flex-row w-full items-stretch -mb-2">
-                    <div>
-                        <h2 class="font-bold text-2xl">Title</h2>
-                    </div>
-                    <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
-                    <div>
-                        <span  class="font-bold text-2xl">100DH</span>
-                    </div>
-                </div>
-                <div>
-                    <span class="text-">
-                        Lorem ipsum dolor sit amet.
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-row items-center px-7 mt-2 w-full">
-            <div class="w-14 mr-3">
-                <img src="images/menu.png" alt="">
-            </div>
-            <div class="w-full">
-                <div class="flex flex-row w-full items-stretch -mb-2">
-                    <div>
-                        <h2 class="font-bold text-2xl">Title</h2>
-                    </div>
-                    <div class="flex-grow border-0 border-b-2 border-black border-dotted mx-2 mb-2"></div>
-                    <div>
-                        <span  class="font-bold text-2xl">100DH</span>
-                    </div>
-                </div>
-                <div>
-                    <span class="text-">
-                        Lorem ipsum dolor sit amet.
-                    </span>
+                <div class="flex -mb-1">
+                    <h1 class="text-neutral font-black uppercase text-3xl">comander facilement</h1>
                 </div>
             </div>
         </div>
